@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <form>
+        
+    <div class="container">
+        <div class="title">
+            <h1>Chatbox</h1>
+        </div>
+        <div class="content">
+            <div class="received">
+                <div class="message message-left blob">
+                    <p class="message-text">Select a career option</p>
+                    <div class="radio-group options">
+                        <div class="radio">
+                            <input type="radio" name="radio" id="eng">
+                            <label for="eng">Engineering</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="radio" id="arch">
+                            <label for="arch">Architect</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sent">
+                <div class="message message-right blob">
+                    Hello, i want to ask about your product.
+                </div>
+            </div>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Type a message">
+            <button>
+                <!-- right arrow fontawesome -->
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
