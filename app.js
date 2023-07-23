@@ -82,7 +82,7 @@ fillForm.addEventListener('submit', (e) => {
             console.log(err);
         }
         );
+        fillForm.style.display = 'none';
     }
-    // hide the form
-    fillForm.style.display = 'none';
+    
 });
