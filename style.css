@@ -117,3 +117,34 @@ input[type="radio"] {
     color: #111;
 
 }
+
+/* popup form */
+.pop-up-form{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity:0;
+    transition: all 0.3s ease;
+}
+.pop-up-form .container{
+    width: 500px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 25px 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.active{
+    visibility:visible;
+    opacity: 1;
+    pointer-events: auto;
+}
